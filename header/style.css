@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: lightcoral;
+}
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 2em;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.menu li{
+    list-style-type: none;
+    text-transform: uppercase;
+    display: block;
+}
+.menu li a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
